@@ -1,6 +1,8 @@
 # angular_virtual_data_simulation_service
 A service for generating virtual data in any front-end Angular projects without back-end support.
 
+用前后端分离的方式进行开发时，常常遇到前端需要测试，但后端的数据库或接口尚未完成的情况。基于 Angular 框架的前端开发，一般用注入服务的方式使业务组件取得后端数据，`virtualDataGenerate.service.ts` 简单地抽象了一个能模拟后端数据，供业务组件调用获取的 Angular 服务类。
+
 ## How to Use
 
 1. Download the ZIP file of the repository.
